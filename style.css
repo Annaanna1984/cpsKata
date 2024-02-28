@@ -116,7 +116,6 @@ body {
     margin-right: 2vw;
     display: inline-block;
     background: #FF3E79;
-    /*padding: 10px 9px 10px 11px;*/
     text-decoration: none;
     border-radius: 100%;
     vertical-align: top;
@@ -152,10 +151,8 @@ body {
 }
 
 .icon {
-    /*background: #FF3E79;*/
     display: inline-block;
     text-decoration: none;
-    /*border-radius: 100%;*/
     vertical-align: top;
     width: 20px;
     height: 20px;
@@ -320,17 +317,6 @@ body {
     margin-right: 4vw;
     display: inline-block;
 }
-
-/*.user-menu__text{*/
-/*    !*display: inline-block;*!*/
-/*    !*white-space: nowrap;*!*/
-/*    display: inline-block;*/
-/*    overflow: hidden;*/
-/*    max-width: 135px;*/
-/*    white-space: nowrap;*/
-/*    overflow: hidden;*/
-/*    text-overflow: ellipsis;*/
-/*}*/
 
 .user-menu--style {
     padding: 10px 9px 10px 11px;
@@ -777,6 +763,7 @@ body {
 .read-more--click::after {
     transform: rotate(137deg);
 }
+
 .page__sidebar {
     position: fixed;
 }
@@ -808,6 +795,7 @@ body {
         display: block;
     }
 }
+
 @media (min-width: 510px) and (max-width: 1120px) {
     .header__logo {
         margin: 0 10px;
@@ -837,6 +825,7 @@ body {
         margin-right: 15px;
     }
 }
+
 @media screen and (max-width: 767px) {
     .container-divider-m::after {
         display: none;
@@ -896,12 +885,14 @@ body {
         z-index: 3;
     }
 }
+
 @media (min-width: 768px) and (max-width: 1120px) {
     .upper-menu {
         order: 999;
         margin-left: auto;
     }
 }
+
 @media (max-width: 1120px) {
     .user-menu--style {
         display: inline-block;
@@ -916,6 +907,7 @@ body {
         display: none;
     }
 }
+
 @media screen and (min-width: 768px) {
     .header__button-menu {
         padding-right: 12px;
@@ -984,6 +976,7 @@ body {
         display: table;
     }
 }
+
 @media (min-width: 1120px) {
     .header {
         display: none;
@@ -1047,17 +1040,20 @@ body {
         display: flex;
     }
 }
+
 @media screen and (min-width: 1121px) {
     .page__sidebar {
         display: block;
     }
 }
+
 @media screen and (min-width: 1440px) {
     .page {
         max-width: 1440px;
         margin-left: auto;
         margin-right: auto;
     }
+
     .user-menu {
         position: relative;
         margin-left: auto;
