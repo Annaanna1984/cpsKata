@@ -13,12 +13,11 @@ let swiper = new Swiper(".swiper", {
     }
 });
 
-let buttonFlag = false
 const content = document.querySelector('.brands__list');
 const button = document.querySelector('.read-more');
 button.addEventListener('click', function () {
-    buttonFlag = !buttonFlag
+    const hasClass = content.matches('.content-height--l');
     content.classList.toggle('content-height--l');
-    button.textContent = buttonFlag ? 'Скрыть' : 'Показать все'
+    button.textContent = hasClass ? 'Показать всё' : 'Скрыть'
     button.classList.toggle('read-more--click');
 })
