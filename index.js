@@ -13,11 +13,12 @@ let swiper = new Swiper(".swiper", {
     }
 });
 
+let buttonFlag = false
 const content = document.querySelector('.brands__list');
 const button = document.querySelector('.read-more');
-button.addEventListener('click', function (evt) {
-    evt.preventDefault();
-    content.classList.toggle('content-height');
-    button.innerHTML = (button.innerHTML === 'Показать все') ? button.innerHTML = 'Скрыть' : button.innerHTML = 'Показать все';
+button.addEventListener('click', function () {
+    buttonFlag = !buttonFlag
+    content.classList.toggle('content-height--l');
+    button.textContent = buttonFlag ? 'Скрыть' : 'Показать все'
     button.classList.toggle('read-more--click');
 })

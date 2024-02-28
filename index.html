@@ -10,44 +10,48 @@
 <body>
 
     <header class="header" >
-        <button class="button--menu container__divider--m" type="button">
-            <img class="button--menu-img " src="src/img/menu.svg">
+        <button class="header__button-menu container-divider-m icon icon-menu" type="button">
+<!--            <img class="button&#45;&#45;menu-img " src="src/img/menu.svg">-->
         </button>
 
-        <a class="logo header__logo container__divider" href="#" aria-label="Логотип">
+        <a class="logo header__logo container-divider" href="#" aria-label="Логотип">
             <img class="logo--img" src="src/img/Group.svg" alt="Логотип" width="98">
         </a>
 
-        <ul class="upper-menu container__divider--l">
+        <ul class="upper-menu container-divider-l">
             <li class="upper-menu__item ">
                 <a class="icon upper-menu__link icon-call" href="#">
-                    <img class="upper-menu__img upper-menu__img--call" src="src/img/call.svg">
+<!--                    <img class="upper-menu__img upper-menu__img&#45;&#45;call" src="src/img/call.svg">-->
                 </a>
             </li>
-            <li class="upper-menu__item icon-feedback">
-                <a class="upper-menu__link " href="#">
-                    <img class="upper-menu__img upper-menu__img--chat" src="src/img/chat.svg"></a>
+            <li class="upper-menu__item ">
+                <a class="upper-menu__link icon icon-chat" href="#"></a>
+<!--                    <img class="upper-menu__img upper-menu__img&#45;&#45;chat" src="src/img/chat.svg"></a>-->
             </li>
             <li class="upper-menu__item ">
-                <a class="upper-menu__link" href="#">
-                    <img class="upper-menu__img" src="src/img/profile.svg"></a>
+                <a class="upper-menu__link icon icon-profile" href="#"></a>
+<!--                    <img class="upper-menu__img" src="src/img/profile.svg"></a>-->
             </li>
         </ul>
     </header>
     <main class="main">
         <div class="main__div">
-            <h1 class="main-title main__div--divider">Услуги и сервисы</h1>
+            <h1 class="main__title main__div--divider">Услуги и сервисы</h1>
             <ul class="user-menu ">
                 <li class="user-menu__item">
-                    <a class="user-menu__link " >
+                    <a class="user-menu__link user-menu--style">
                         <span class="user-menu__text">Оставить заявку</span>
-                        <span class="user-menu--style"><img class="user-menu__img" src="src/img/repair.svg"></span>
+                        <span class="icon icon-user-menu">
+<!--                            <img class="user-menu__img" src="src/img/repair.svg">-->
+                        </span>
                     </a>
                 </li>
                 <li class="user-menu__item">
-                    <a class="user-menu__link" >
+                    <a class="user-menu__link user-menu--style" >
                         <span class="user-menu__text">Статус ремонта</span>
-                        <span class="user-menu--style"> <img class="user-menu__img" width="20px" height="20px" src="src/img/checkstatus.svg"></span>
+                        <span class="icon icon-checkstatus">
+<!--                            <img class="user-menu__img" width="20px" height="20px" src="src/img/checkstatus.svg">-->
+                        </span>
                     </a>
                 </li>
             </ul>
@@ -80,7 +84,7 @@
                     Мы являемся авторизованным сервисным центром по ремонту техники Dell.
                     Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
                 </p>
-                <a class="more--text" href="#" > Читать далее </a>
+                <button class="more-text" href="#" > Читать далее </button>
             </div>
             <img class="description__img" src="src/img/MG3223.jpg" alt="фото нашей вывески" >
 
